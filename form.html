@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+</head>
+<body>
+    <form action="none"> 
+        <!-- <h1 style="color: blue; font-size: 60px; background-color: chartreuse;"><center>Student Registation Form</center></h1> -->
+        <center>
+            <table cellpadding="10" bordercolor= #b3e6ff style="background-color: aquamarine;">
+              <th colspan="2" style="font-size: 50px; color: white; background-color: black;"><center>Student Rajistation form</center></th>
+                <tr>
+                   <td ><label style="font-size: 20px";" for="name">Full Name</label></td>
+                   <td "><input type="text"  name="Name" size="70" id="name"></td>
+               </tr>
+
+               <tr>
+                <td > <label style="font-size: 20px"; for="fname">Father Name</label></td>
+                <td "><input type="text" name="FatherName" size="70" id="fname"></td>
+               </tr>
+
+            <tr>
+                <td> <label style="font-size: 20px"; for="postadd">Postal Address</label></td>
+                <td><input type="text" name="PostalAddress" size="70" id="postadd"></td>
+            </tr>
+
+            <tr>
+            <td> <label style="font-size: 20px"; for="peradd">Personal Address</label></td>
+            <td><input type="text" name="PersonalAddress" size="70" id="peradd"></td>
+            </tr>
+
+            <tr>
+                <td><label style="font-size: 20px"; for="mobno">Mobile Number</label> </td>
+                <td><input type="number" name="MobileNo" size="70"  id="mobno"></td>
+            </tr>
+
+            <tr>
+                <td> <label style="font-size: 20px"; for="dob">Date OF Birth</label></td>
+                <td><input type="date" name="DOB" id="dob"></td>
+            </tr>
+
+            <tr>
+                <td style="font-size: 20px";><label>Gender</label></td>
+                <td> Male <input type="radio" name="Gender"> 
+                    Female <input type="radio" name="Gender"> 
+                    Other <input type="radio" name="Gender"></td>
+            </tr>
+            
+            <tr>
+                <td> <label style="font-size: 20px"; for="city">City</label> </td>
+                <td> <select name="city" id="city">
+                    <option value="Noida" selected>Noida</option>
+                    <option value="Delhi NCR">Delhi NCR</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Greater noida">Greater noida</option>
+                    <option value="Garhi chaukhandi">Garhi chaukhandi</option>
+                    <option value="Mamura">Mamura</option>
+                </select></td>
+            </tr>
+            
+            <tr>
+                <td style="font-size: 20px";> <label for="course">Choose Branch in B.Tech</label></td>
+                <td> <select name="courses" id="course">
+                    <option value="Computer Science and Enginnering" selected>Computer science</option>
+                    <option value="Information Technology">Information technology</option>
+                    <option value="Mechanical Enginnering">Mechanical Enginnering</option>
+                    <option value="Electrical Enginnering">Electrical Enginnering</option>
+                    <option value="Civil Enginnering">Civil services</option>
+                
+                </select></td>
+            </tr>
+            
+            <tr>
+               <td style="font-size: 20px";> <label  for="pincode" >PinCode</label></td>
+               <td><input type="number" name="PinCode" size="70" id="pincode"></td>
+            </tr>
+            
+            <tr>
+                <td style="font-size: 20px;"><label for="email">Email</label> </td>
+                <td><input type="email" name="Email" size="60" id="email"></td>
+            </tr>
+            
+            <tr>
+                <td style="font-size: 20px;" >Any Suggestion</td>
+                <td><textarea name="feeback" cols="60" rows="5"></textarea></td>
+            </tr>
+            <tr></tr>
+            </table>
+        
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset">
+        </center>
+      </form>
+
+</body>
+</html>
